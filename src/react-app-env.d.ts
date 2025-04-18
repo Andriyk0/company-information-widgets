@@ -1,5 +1,9 @@
 /// <reference types="react-scripts" />
 
+export interface State {
+    companies: Company[],
+}
+
 export interface Company {
     id: string;
     ticker: string;
