@@ -15,7 +15,7 @@ This is a dashboard application built with React and TypeScript that displays co
 ### Prerequisites
 
 - Node.js (version 18.20.8 or later)
-- npm (version 8 or later)
+- Yarn (version 1.22 or later)
 
 ### 1. Clone the repository
 
@@ -24,17 +24,17 @@ This is a dashboard application built with React and TypeScript that displays co
 
 ### 2. Install dependencies
 
-- npm install
+- yarn install
 
 ### 3. Run the application locally
 
-- npm run start
+- yarn start
 
 The app will be available at http://localhost:3000
 
 ### 4. Build the app
 
-- npm run build
+- yarn build
 
 ### 5. Run the app in Docker
  To build and run the application in a Docker container:

@@ -5,15 +5,15 @@ FROM node:18-alpine
 WORKDIR /app
 
 # 📦 Copy and install dependencies
-COPY package.json package-lock.json ./
-RUN npm install
+COPY package.json yarn.lock ./
+RUN yarn install
 
 # 🧾 Copy the rest of the application
 COPY . .
 
 # 🛠️ Build the app
-RUN npm run build
+RUN yarn build
 
 # 🌐 Serve the app using a lightweight HTTP server
-RUN npm install -g serve
+RUN yarn global add serve
 CMD ["serve", "-s", "build"]
