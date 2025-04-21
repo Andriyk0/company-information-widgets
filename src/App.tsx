@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { fetchCompanies } from './api/api';
 import { Company } from './react-app-env';
 import { setCompanies } from './store';
+import { DashboardLayout } from './components/DashboardLayout/DashboardLayout';
 
 function App() {
   const dispatch = useDispatch();
@@ -25,6 +26,7 @@ function App() {
   
   return (
     <div className="App">
+      <DashboardLayout />
     </div>
   );
 }
