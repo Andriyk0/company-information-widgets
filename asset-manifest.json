@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Andriyk0/company-information-widgets/static/css/main.080dd5d3.css",
+    "main.js": "/Andriyk0/company-information-widgets/static/js/main.974da9eb.js",
+    "static/js/453.a1e588e2.chunk.js": "/Andriyk0/company-information-widgets/static/js/453.a1e588e2.chunk.js",
+    "index.html": "/Andriyk0/company-information-widgets/index.html",
+    "main.080dd5d3.css.map": "/Andriyk0/company-information-widgets/static/css/main.080dd5d3.css.map",
+    "main.974da9eb.js.map": "/Andriyk0/company-information-widgets/static/js/main.974da9eb.js.map",
+    "453.a1e588e2.chunk.js.map": "/Andriyk0/company-information-widgets/static/js/453.a1e588e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.080dd5d3.css",
+    "static/js/main.974da9eb.js"
+  ]
+}
