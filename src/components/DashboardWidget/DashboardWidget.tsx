@@ -1,6 +1,7 @@
 import React from 'react';
 import { MosaicBranch, MosaicWindow } from 'react-mosaic-component';
 import { CompanySelectDropdown } from '../CompanySelectDropdown/CompanySelectDropdown';
+import { CompanyInfoWidget } from '../CompanyInfoWidget/CompanyInfoWidget';
 
 interface Company {
   ticker: string;
@@ -35,6 +36,6 @@ export const DashboardWidget: React.FC<DashboardWidgetProps> = ({
       />,
     ]}
   >
-    <div>Test company info</div>
+    <CompanyInfoWidget selectedTicker={ticker} />
   </MosaicWindow>
 );
